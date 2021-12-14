@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"> 
+    <title>User list</title>
+</head>
+<body>
+  <main class="contacts-main" >
+  <h1 class="main-title">Add new user</h1>
+  <form action="" class="register-form register-form-js">
+
+    <div class="wrapper">
+      <label for="name-input" class="label-input">Name:</label>
+      <input type="text" class="form-input" id="name-input" placeholder="Format: My Name" required>
+    </div>
+    <div class="wrapper">
+      <label for="number-input" class="label-input">Phone:</label>
+      <input type="tel" class="form-input" id="phone-input" name="phone" placeholder="Format: 094-456-7890"  required>
+    </div>
+    <div class="wrapper">
+      <button type="submit" class="submit-btn">Send</button>
+    </div>
+  </form>
+  <p class="loader-js">Loading...</p>
+  <ul class="contacts-list-output contacts-list-output-js">
+  </ul>
+</main>
+<script src="./script.js" type="module"></script>
+</body>
+</html>
