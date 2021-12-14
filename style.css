@@ -20,7 +20,7 @@ label {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 500px;
+  max-width: 530px;
   width: 100%;
 }
 .contacts-main .main-title {
@@ -119,9 +119,7 @@ label {
   border: solid 1px green;
   border-radius: 2px;
 }
-.contacts-main .contacts-list-output .cell-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .contacts-main .contacts-list-output .cell-item .delete-btn {
   display: block;
   width: 100%;
